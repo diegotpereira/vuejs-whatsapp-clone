@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.mensagemVisualizar {
+    display: flex;
+    flex-direction: column;
+    background-color: #0A1014;
+    width: 1500px;
+    font-family: "Inter", sans-serif;
+    border-left: 1px solid #344249;
+}
+.mensagemVisualizar__cabecalho {
+    background-color: #202C33;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 20px;
+}
+.mensagemVisualizar__usuario {
+    display: flex;
+}
+.mensagemVisualizar__usuario img {
+    width: 45px;
+    height: 45px;
+    border-radius: 55px;
+}
+.mensagemVisualizar__usuario span {
+    color: white;
+    font-size: 15px;
+    margin-top: 12px;
+    margin-left: 15px;
+}
+.mensagemVisualizar__cabecalho__icones {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50px;
+    padding-right: 20px;
+}
+.mensagemVisualizar__cabecalho__icone {
+    font-size: 20px;
+    color: #AEBAC1;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.mensagemVisualizar__corpo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 20px 0;
+    height: 100%;
+}
+.mensagemVisualizar__footer {
+    background-color: #2A3942;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.mensagemVisualizar__footer_icones {
+    display: flex;
+    justify-content: space-between;
+    width: 70px;
+}
+.mensagemVisualizar__footer_icone {
+    margin-top: 10px;
+    font-size: 25px;
+    color: #AEBAC1;
+    cursor: pointer;
+}
+.mensagemVisualizar__entrada input{
+    padding: 15px 20px; 
+    background-color: #202C33;
+    border: none;
+    resize: none;
+    outline: none;
+    width: 1000px;
+    border-radius: 10px;
+    color: white;
+}

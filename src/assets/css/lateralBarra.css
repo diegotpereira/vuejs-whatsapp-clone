@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.barraLateral {
+    width: 500px;
+    font-family: 'Inter', sans-serif;
+    background-color: #111B21;
+}
+.barraLateral__cabecalho {
+    display: flex;
+    justify-content: space-between;
+    background-color: #202C33;
+    padding: 10px 20px;
+}
+.barraLateral__perfil_foto img {
+    width: 45px;
+    border-radius: 55px;
+    width: 45px;
+    cursor: pointer;
+}
+.barraLateral__cabecalho_icones {
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+    padding-right: 35px;
+}
+.barraLateral__cabecalho_icone {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #AEBAC1;
+    cursor: pointer;
+}
+.barraLateral__buscar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #111B21;
+    border-bottom: 1px solid #202C33;
+    padding: 10px 15px;
+}
+.barraLateral__buscar_area {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #202C33;
+    width: 100%;
+    display: flex;
+}
+.barraLateral__buscar_area input {
+    background: none;
+    border: none;
+    resize: none;
+    outline: none;
+    width: 100%;
+    margin-left: 30px;
+    color: #AEBAC1;
+    font-weight: 100;
+    font-size: 13px;
+}
+::placeholder {
+    color: #AEBAC1;
+    font-size: 13px;
+    font-weight: 100;
+}
+.barraLateral__buscar_icone {
+    font-size: 15px;
+    color: #AEBAC1;
+    cursor: pointer;
+}
+.barraLateral_buscar_filtro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 5px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.barraLateral__arquivo {
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+    padding: 15px 35px;
+    background-color: #111B21;
+    border-bottom: 1px solid #202C33;
+}
+.barraLateral__arquivo_icones {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.barraLateral__arquivo_icone {
+    font-size: 15px;
+    color: #00A884;
+}
+.barraLateral__arquivo span {
+    color: white;
+    font-size: 15px;
+    margin-left: 50px;
+}
+.barraLateral__corpo {
+    height: 700;
+    overflow-y: scroll;
+}
+.barraLateral__item {
+    background-color: #111B21;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #202C33;
+    cursor: pointer;
+}
+.barraLateral__item:hover {
+    background-color: #202C33;
+}
+.barraLateral__enviar_info {
+    display: flex;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding: 0;
+}
+.barraLateral__enviar_foto img {
+    width: 50px;
+    border-radius: 55px;
+}
+.barraLateral__enviar_conteudo {
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
