@@ -2,7 +2,7 @@ const indicesMensagens = [
     {
         "usuario": "Bob Marley",
         "imagem": "https://i.pinimg.com/564x/df/b8/34/dfb83449cf1735288b5fe44f502738aa.jpg",
-        "mensagem": [
+        "mensagens": [
             {
                 "tempo": "12:45",
                 "conteudo": "Olá, Darius, você está livre?",

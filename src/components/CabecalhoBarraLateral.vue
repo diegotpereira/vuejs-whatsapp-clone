@@ -2,7 +2,7 @@
     <div class="barraLateralTopModule">
         <div class="barraLateral__cabecalho">
             <div class="barraLateral__perfil_foto">
-                <img src="" alt="">
+                <img src="../assets/imagens/user1.jpg" alt="">
             </div>
             <div class="barraLateral__cabecalho_icones">
                 <font-awesome-icon class="barraLateral__cabecalho_icone" icon="fa-solid fa-recycle"/>

@@ -1,11 +1,18 @@
 <template>
-    <div class="mensagem">
-        <span></span>
+    <div class="mensagem" v-bind:class="{ enviar: enviar }">
+        {{ conteudo }}
+        <span>{{ tempo }}</span>
     </div>
 </template>
 <script>
 export default {
-    name: 'CorpoMensagem'
+    name: 'CorpoMensagem',
+    data() {
+        return {
+            
+        }
+    },
+    props: ['conteudo', 'tempo', 'enviar']
 }
 </script>
 <style>
@@ -20,7 +27,7 @@ export default {
     color: white;
 }
 .mensagem.enviar {
-    background: #005C48;
+    background: #005C4B;
     align-self: flex-end;
     color: white;
 }
